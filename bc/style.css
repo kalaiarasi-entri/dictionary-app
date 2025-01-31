@@ -1,0 +1,19 @@
+body {
+  background-color: #80808059;
+}
+section {
+  text-align: center;
+}
+h1 {
+  font-size: 20pt;
+}
+input {
+  width: 50%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth interaction effects */
+  border-radius: 30px;
+}

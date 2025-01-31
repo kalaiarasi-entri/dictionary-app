@@ -1,0 +1,27 @@
+body {
+    background-color: #80808059;
+}
+
+h1 {
+    font-size: 32pt;
+    color: #333;
+}
+
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    display: none; /* Hide initially */
+}
+
+.search-input {
+    padding: 13px 20px;;
+    font-size: 16px;
+    border: 2px solid #ddd; /* Light border */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s; 
+  }
+
+.search-button {
+    font-size: 16px;
+}
