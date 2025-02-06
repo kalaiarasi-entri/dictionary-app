@@ -10,7 +10,7 @@ document.getElementById('searchButton').addEventListener('click', async function
     }
 
     resultDiv.style.display = "block";
-    resultDiv.innerHTML = `<i class="bi bi-search"></i>` + "Searching...";
+    resultDiv.innerHTML = `<i class="bi bi-search"></i> Searching...`;
 
     try {
         let response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
